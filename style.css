@@ -41,7 +41,7 @@
 }
 
 #contact-info {
-    font-size: 20px;
+    font-size: 22px;
     color: rgb(0, 0, 0);
     font-weight: 350; 
     letter-spacing: 1px; 
@@ -50,17 +50,31 @@
     margin-bottom: 10px;
 }
 
+#email {
+    color:rgb(30, 109, 255)
+}
+
+#pickle-logo-mobile {
+    visibility: hidden; 
+}
+
 /* // MEDIA QUERIES  */
 @media only screen and (max-width: 430px) {
-    #pickle-logo {
-        width: 100px; 
-        text-align: center; 
+    #coming-soon {
+        font-size: 22px; 
+    }
+
+    #contact-info {
+        font-size: 15px;
     }
 }
   
 @media only screen and (max-width: 730px) {
-  #pickle-logo {
-    width: 100px; 
-    text-align: center; 
+#coming-soon {
+    font-size: 27px; 
+}
+
+#contact-info {
+    font-size: 18px;
 }
 }

@@ -78,10 +78,6 @@ justify-content: center;
     .pickle-header{
         margin-top: 12px;
       }
-
-      #pickle-logo {
-        width: 200px;  
-    }
 }
   
 @media (max-width: 730px) {

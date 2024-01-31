@@ -16,7 +16,7 @@ justify-content: center;
 
 #email:hover {
     cursor: pointer; 
-    color: rgb(248, 71, 17);
+    color: rgb(30, 109, 255);
 }
 
 .pickle-header{
@@ -50,7 +50,7 @@ justify-content: center;
 }
 
 #email {
-    color:rgb(30, 109, 255)
+    color:rgb(30, 109, 255);
 }
 
 #allrights {
@@ -76,7 +76,7 @@ justify-content: center;
     }
 
     .pickle-header{
-        margin-top: -15px;
+        margin-top: -9px;
       }
 }
   

@@ -29,6 +29,13 @@ justify-content: center;
     width: 100%; 
 }
 
+#pickle-logo-mobile {
+    margin: 0 auto; 
+    display: none; 
+    text-align: center; 
+    width: 100%; 
+}
+
 #coming-soon {
     font-size: 31px;
     color: rgb(0, 0, 0);
@@ -64,7 +71,7 @@ justify-content: center;
 }
 
 /* // MEDIA QUERIES  */
-@media (max-width: 430px) {
+@media (max-width: 480px) {
     #coming-soon {
         font-size: 27px; 
         margin-top: -8px;
@@ -76,8 +83,16 @@ justify-content: center;
     }
 
     .pickle-header{
-        margin-top: 20px;
+        margin-top: 30px;
       }
+
+    #pickle-logo {
+        display: none; 
+    }
+
+    #pickle-logo-mobile { 
+        display: block;
+    }
 }
   
 @media (max-width: 730px) {
@@ -87,5 +102,13 @@ justify-content: center;
 
 #contact-info {
     font-size: 17px;
+}
+
+#pickle-logo {
+    display: none; 
+}
+
+#pickle-logo-mobile { 
+    display: block;
 }
 }

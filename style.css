@@ -72,11 +72,6 @@ justify-content: center;
     #contact-info {
         font-size: 13px;
     }
-
-    #allrights {
-        margin-top: 30px; 
-    }
-    
 }
   
 @media only screen and (max-width: 730px) {

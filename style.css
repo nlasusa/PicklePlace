@@ -53,9 +53,6 @@ justify-content: center;
     color:rgb(30, 109, 255)
 }
 
-#pickle-logo-mobile {
-    visibility: hidden; 
-}
 
 /* // MEDIA QUERIES  */
 @media only screen and (max-width: 430px) {
@@ -65,6 +62,10 @@ justify-content: center;
 
     #contact-info {
         font-size: 15px;
+    }
+
+    #pickle-logo {
+        width: 450px; 
     }
 }
   

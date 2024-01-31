@@ -21,14 +21,13 @@
 }
 
 .pickle-header{
-    padding: 10px;
-    text-align: center;
     margin-top: 100px; 
     margin-bottom: 10px;
   }
 
-.pickle-logo {
+#pickle-logo {
     width: 100%; 
+    text-align: center; 
 }
 
 #coming-soon {
@@ -53,19 +52,15 @@
 
 /* // MEDIA QUERIES  */
 @media only screen and (max-width: 430px) {
-    #question {
-      font-size: 15px
+    #pickle-logo {
+        width: 100px; 
+        text-align: center; 
     }
-  #response {
-    font-size: 13.5px;
-  }
 }
   
 @media only screen and (max-width: 730px) {
-    #question {
-      font-size: 15px
-    }
-  #response {
-    font-size: 13.5px;
-  }
+  #pickle-logo {
+    width: 100px; 
+    text-align: center; 
+}
 }

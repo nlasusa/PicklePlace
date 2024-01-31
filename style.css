@@ -80,7 +80,7 @@ justify-content: center;
       }
 }
   
-@media (max-width: 730px) {
+/* @media (max-width: 730px) {
 #coming-soon {
     font-size: 28px; 
 }
@@ -88,4 +88,4 @@ justify-content: center;
 #contact-info {
     font-size: 19px;
 }
-}
+} */

@@ -67,11 +67,17 @@ justify-content: center;
 @media only screen and (max-width: 430px) {
     #coming-soon {
         font-size: 19px; 
+        margin-top: -5px;
     }
 
     #contact-info {
         font-size: 13px;
+        margin-top: -5px;
     }
+
+    .pickle-header{
+        margin-top: -5px;
+      }
 }
   
 @media only screen and (max-width: 730px) {

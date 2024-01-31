@@ -2,11 +2,10 @@
     font-family: 'Raleway';
 }
 
-#logo-main {
-    /* margin-bottom: 55px; 
-    margin-top: -35px; */
-    margin: 0 auto; 
-    margin-top: -20px; 
+.container {
+float: none;
+display: flex;
+justify-content: center;
 }
 
 #visit-site {
@@ -15,9 +14,9 @@
     letter-spacing: .6.5rem; 
 }
 
-#visit-site:hover {
+#email:hover {
     cursor: pointer; 
-    color: rgb(211, 211, 211);
+    color: rgb(255, 60, 0);
 }
 
 .pickle-header{
@@ -26,12 +25,11 @@
   }
 
 #pickle-logo {
-    width: 100%; 
     text-align: center; 
 }
 
 #coming-soon {
-    font-size: 30px;
+    font-size: 33px;
     color: rgb(0, 0, 0);
     font-weight: 350; 
     letter-spacing: 1px; 
@@ -41,7 +39,7 @@
 }
 
 #contact-info {
-    font-size: 22px;
+    font-size: 24px;
     color: rgb(0, 0, 0);
     font-weight: 350; 
     letter-spacing: 1px; 
@@ -71,10 +69,10 @@
   
 @media only screen and (max-width: 730px) {
 #coming-soon {
-    font-size: 27px; 
+    font-size: 28px; 
 }
 
 #contact-info {
-    font-size: 18px;
+    font-size: 19px;
 }
 }

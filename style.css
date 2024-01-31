@@ -72,6 +72,10 @@ justify-content: center;
     #contact-info {
         font-size: 13px;
     }
+
+    #allrights {
+        padding-top: 30px; 
+    }
     
 }
   

@@ -90,12 +90,12 @@ justify-content: center;
 /* // MEDIA QUERIES  */
 @media (max-width: 480px) {
     #coming-soon {
-        font-size: 27px; 
+        font-size: 23px; 
         margin-top: -8px;
     }
 
     #contact-info {
-        font-size: 21px;
+        font-size: 17px;
         margin-top: -5px;
     }
 

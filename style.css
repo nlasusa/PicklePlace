@@ -64,11 +64,12 @@ justify-content: center;
     text-align: center; 
     font-family: 'Raleway';
     font-size: 14px; 
+    letter-spacing: 1px; 
 }
 
 .fa-facebook, .fa-instagram, .fa-linkedin {
     color: rgb(30, 109, 255); 
-    padding: 15px; 
+    padding: 8px; 
     font-size: 22px; 
 }
 
@@ -108,6 +109,10 @@ justify-content: center;
 
     #pickle-logo-mobile { 
         display: block;
+    }
+
+    #social-media {
+        font-size: 11px; 
     }
 }
 

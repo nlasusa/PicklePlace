@@ -66,7 +66,7 @@ justify-content: center;
     letter-spacing: 1px; 
     font-size: 11.2px; 
     bottom: 0; 
-    position: absolute; 
+    position: fixed; 
     padding-bottom: 15px; 
 }
 

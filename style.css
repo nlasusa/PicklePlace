@@ -20,7 +20,7 @@ justify-content: center;
 }
 
 .pickle-header{
-    margin-top: 128px; 
+    margin-top: 90px; 
     margin-bottom: 5px;
   }
 
@@ -60,6 +60,22 @@ justify-content: center;
     color:rgb(30, 109, 255);
 }
 
+#social-media {
+    text-align: center; 
+    font-family: 'Raleway';
+    font-size: 14px; 
+}
+
+.fa-facebook, .fa-instagram, .fa-linkedin {
+    color: rgb(30, 109, 255); 
+    padding: 15px; 
+    font-size: 22px; 
+}
+
+.fa-facebook, .fa-instagram, .fa-linkedin:hover {
+    cursor: pointer; 
+}
+
 #allrights {
     text-align: center; 
     font-family: 'Raleway';
@@ -94,10 +110,20 @@ justify-content: center;
         display: block;
     }
 }
-  
+
+@media (max-width: 1200px) {
+    #coming-soon {
+        font-size: 23px; 
+    }
+    
+    #contact-info {
+        font-size: 17px;
+    }
+    }
+
 @media (max-width: 730px) {
 #coming-soon {
-    font-size: 24px; 
+    font-size: 23px; 
 }
 
 #contact-info {
@@ -111,4 +137,13 @@ justify-content: center;
 #pickle-logo-mobile { 
     display: block;
 }
+
+#social-media {
+    font-size: 13px; 
+}
+
+.fa-facebook, .fa-instagram, .fa-linkedin {
+    font-size: 18px; 
+}
+
 }

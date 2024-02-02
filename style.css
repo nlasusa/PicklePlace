@@ -96,7 +96,7 @@ justify-content: center;
     }
 
     #contact-info {
-        font-size: 15px;
+        font-size: 14px;
         margin-top: -5px;
     }
 
@@ -119,21 +119,21 @@ justify-content: center;
 
 @media (max-width: 1200px) {
     #coming-soon {
-        font-size: 23px; 
+        font-size: 24px; 
     }
     
     #contact-info {
-        font-size: 15px;
+        font-size: 20px;
     }
     }
 
-@media (max-width: 730px) {
+@media (max-width: 900px) {
 #coming-soon {
     font-size: 23px; 
 }
 
 #contact-info {
-    font-size: 17px;
+    font-size: 16px;
 }
 
 #pickle-logo {

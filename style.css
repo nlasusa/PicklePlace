@@ -40,7 +40,7 @@ justify-content: center;
 button {
     cursor: pointer; 
     color: white;
-    padding: 20px; 
+    padding: 15px; 
     background-color: rgb(30, 109, 255);
     border: none; 
 }
